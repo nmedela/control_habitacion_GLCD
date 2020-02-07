@@ -1,0 +1,5 @@
+>>> Warning 215 "C:\Users\Nico\Desktop\11 Ethernet\WebServer v1.0\tcpip\stacktsk.c" Line 109(1,1): Undefined identifier   STACK_USE_BASE64
+>>> Warning 215 "C:\Users\Nico\Desktop\11 Ethernet\WebServer v1.0\tcpip\stacktsk.c" Line 202(1,1): Undefined identifier   STACK_USE_BASE64
+>>> Warning 206 "Main.c" Line 95(1,1): Variable of this data type is never greater than this constant
+      Memory usage:   ROM=55%      RAM=18% - 37%
+      0 Errors,  3 Warnings.

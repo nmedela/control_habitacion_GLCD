@@ -1,0 +1,77 @@
+
+ROM used: 5336 (65%)
+          5409 (66%) including unused fragments
+
+          2 Average locations per line
+          8 Average locations per statement
+
+RAM used: 128 (35%) at main() level
+          161 (44%) worst case
+
+Stack used: 6 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  519   309  46  programa para glcd.c
+  330     0   0  ..\..\..\..\..\Program Files\PICC\devices\16f877a.h
+   37     0   0  ..\..\..\..\..\Program Files\PICC\drivers\stdio.h
+  409   121  18  ..\..\..\..\..\Program Files\PICC\drivers\string.h
+   32     0   0  ..\..\..\..\..\Program Files\PICC\drivers\stddef.h
+   28     0   0  ..\..\..\..\..\Program Files\PICC\drivers\ctype.h
+  409     0   0  ..\..\..\..\..\Program Files\PICC\drivers\STRING.h
+  673   240  36  GLCDNICO.TXT
+----- -----
+ 2437   670 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   0   1             @delay_ms1
+0    262   5   0             @const179
+0    224   4   0             @const182
+0    102   2   1   555  3.4  glcd_init
+0    159   3   6   734  7.1  glcd_pixel
+1    248   5  15  1634  8.6  glcd_line
+0     39   1   2   295  1.9  @MUL88
+1     91   2   6   743  5.9  glcd_rect
+1    296   6  12  1822  8.6  glcd_circle
+1    233   4  21  1436  9.2  glcd_text57
+0     91   2   4   498  4.8  glcd_fillScreen
+0     40   1   2   247  3.2  glcd_writeByte
+ Inline        2   391  3.9  glcd_readByte
+0     30   1   2   134  2.2  incrementar
+0     32   1   2   134  2.2  incrementar2
+0    521  10   0             @const272
+0    521  10   0             @const274
+2    637  12   1  2467  7.9  MAIN
+1     68   1   1   295  1.9  pulsaluz
+1     68   1   1   295  1.9  pulsaaudio
+1     68   1   1   295  1.9  pulsacortina
+1    167   3   0  1041  2.0  menu
+1    104   2   2   348  5.6  getx
+1     71   1   2   179  3.6  gety
+1    563  11   1  4583  5.4  menuluz
+2    571  11   1  3978  5.4  menuaudio
+2    105   2   0   474  5.2  menucortinas
+
+Program metrics:
+    Functions               22
+    Statements              670
+    Comments                788
+    Volume (V)              35483
+    Difficilty (D)          102.0
+    Effort to implement (E) 3619140
+    Time to implement (T)   55 hours, 51 minutes
+    Est Delivered Bugs (B)  8
+    Cyclomatic Complexity   47
+    Maintainability (MI)    84
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  2042  2  
+00800-00FFF  1977  71  
+01000-017FF  1313  735  
+01800-01FFF     0  2048  
+
+
+

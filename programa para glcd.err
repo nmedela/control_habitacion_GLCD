@@ -1,0 +1,5 @@
+>>> Warning 202 "C:\Users\Nico\Documents\carpetas\Programa para glcd\GLCDNICO.TXT" Line 646(5,6): Variable never used:   i
+>>> Warning 202 "programa para glcd.c" Line 134(6,7): Variable never used:   c
+>>> Warning 202 "programa para glcd.c" Line 146(6,13): Variable never used:   mensaje
+      Memory usage:   ROM=65%      RAM=35% - 44%
+      0 Errors,  3 Warnings.

@@ -1,0 +1,18 @@
+El Modulo ENC28J60 debe ser alimentado con 3.3v
+El PIC funciona con un cristal de 4Mhz a una frecuencia de 48Mhz (PLL).
+Se conecta al PC a traves de un cable UTP cruzado.
+Conectar cable usb para ver el funcionamiento del Programa en Hiperterminal.
+
+Ir a Inicio -> Panel de Control -> Conexiones de Redes -> Conexion de Area Local
+luego en la pestaña General ir a Propiedades y doble click en 
+Protocolo Internet (TCP/IP) 
+luego Marcar la opcion Usar la siguiente direccion IP
+
+Direccion IP: 192.168.1.110
+Mascara de subred: 255.255.255.0
+Puerta de enlace predeterminada: 192.168.1.1
+
+Los DNS dejar en blanco
+
+Espero les sirve este pequeño tutorial !
+Saludos: Giovanni 

@@ -1,0 +1,41 @@
+[PROJECT]
+Target=Main.HEX
+Development_Mode=2
+Processor=0x4550
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=Main.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[Main.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=Main.c
+
+[Windows]
+0=0000 Main.c 0 0 796 451 3 0
+
+[Units]
+Count=1
+1=Main (main)
+[Opened Files]
+1=Main.c
+2=..\..\..\..\..\Program Files\PICC\Devices\18F4550.h
+3=tcpip\stacktsk.c
+4=
